@@ -56,7 +56,7 @@ func main() {
 	dict.numbers[9].display = [5]string{" - - - - ", " -     - ", " - - - - ", "       - ", "       - "}
 	dict.numbers[1].Saludar()
 	var s []int
-	s = append(s, 4, 6, 5, 7, 8, 3, 5, 9)
+	s = append(s, 4, 9, 7, 3, 9, 9, 8, 0)
 	ConcatNumber(dict, s)
 }
 
